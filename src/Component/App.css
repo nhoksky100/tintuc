@@ -1,0 +1,493 @@
+
+.single-banner {
+width:170px;
+}
+
+.sibar_right{
+    margin-top: 10px;
+}
+.content-new{
+    margin-top: 10px;
+}
+.border_bottom{
+    border-bottom: 1px dotted silver;
+}
+.ml{
+    margin-left: 10px;
+}
+.ml ul li{
+    display: inline-block;
+}
+.ml ul li.list{
+    list-style: none;
+}
+.mg{
+    
+    margin: 20px 10px 20px 0;
+}
+.content-new img{
+    width: 200px;
+    height:110px;
+}
+.smalls{
+    font-size: 12px;
+}
+.rounded{
+    width: 100%;
+    min-height: 500px;
+    max-height:auto;
+}
+.linkto{
+    cursor: pointer;
+}
+.linkto:hover{
+   text-decoration: underline;
+}
+.list h6.title{
+  position: relative;
+  left: -17px;
+}
+.list h6.title:hover{
+    text-decoration: underline;
+    
+}
+.bg{
+  background-color: whitesmoke ;
+}
+/* title */
+.card-title:hover{
+  transition: 0.3s all ease-in-out;
+  color: chocolate;
+  /* font-weight: bold; */
+}
+/* style content */
+
+/* back to top */
+a.cd-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: #3097D1 url("https://thinhweb.com/wp-content/themes/thinhweb/images/cd-top-arrow.svg") no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+    }
+    a.cd-top.cd-is-visible, a.cd-top.cd-fade-out, .no-touch a.cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+    }
+    
+    a.cd-top, a.cd-top:visited, a.cd-top:hover {
+    color: #CCCCCC;
+    text-decoration: none;
+    }
+    
+    a.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+    }
+    a.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: 1;
+    }
+    /* login */
+    .wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+        justify-content: center;
+        width: 100%;
+        min-height: 100%;
+        padding: 20px;
+      }
+      
+      #formContent {
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border-radius: 10px 10px 10px 10px;
+        background: #fff;
+        padding: 30px;
+        width: 90%;
+        max-width: 450px;
+        position: relative;
+        padding: 0px;
+        -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+        box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+        text-align: center;
+      }
+      
+      #formFooter {
+        background-color: #f6f6f6;
+        border-top: 1px solid #dce8f1;
+        padding: 25px;
+        text-align: center;
+        -webkit-border-radius: 0 0 10px 10px;
+        border-radius: 0 0 10px 10px;
+      }  
+      
+      /* FORM TYPOGRAPHY*/
+      
+      input[type=button], input[type=submit], input[type=reset]  {
+        background-color: #56baed;
+        border: none;
+        color: white;
+        padding: 15px 80px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 13px;
+        -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+        box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+        margin: 5px 20px 40px 20px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+        background-color: #39ace7;
+      }
+      
+      input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+        -moz-transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        -o-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+      }
+      
+      input[type=text],[type=password] {
+        background-color: #f6f6f6;
+        border: none;
+        color: #0d0d0d;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 5px;
+        width: 85%;
+        border: 2px solid #f6f6f6;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -ms-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border-radius: 5px 5px 5px 5px;
+      }
+      
+      input[type=text]:focus {
+        background-color: #fff;
+        border-bottom: 2px solid #5fbae9;
+      }
+      input[type=password]:focus {
+        background-color: #fff;
+        border-bottom: 2px solid #5fbae9;
+      }
+      input[type=text]:placeholder {
+        color: #cccccc;
+      }
+      input[type=password]:placeholder {
+        color: #cccccc;
+      }
+      
+      
+      
+      /* ANIMATIONS */
+      
+      /* Simple CSS3 Fade-in-down Animation */
+      .fadeInDown {
+        -webkit-animation-name: fadeInDown;
+        animation-name: fadeInDown;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+      }
+      
+      @-webkit-keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      
+      @keyframes fadeInDown {
+        0% {
+          opacity: 0;
+          -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+        }
+        100% {
+          opacity: 1;
+          -webkit-transform: none;
+          transform: none;
+        }
+      }
+      
+      /* Simple CSS3 Fade-in Animation */
+      @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      @-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+      
+      .fadeIn {
+        opacity:0;
+        -webkit-animation:fadeIn ease-in 1;
+        -moz-animation:fadeIn ease-in 1;
+        animation:fadeIn ease-in 1;
+      
+        -webkit-animation-fill-mode:forwards;
+        -moz-animation-fill-mode:forwards;
+        animation-fill-mode:forwards;
+      
+        -webkit-animation-duration:1s;
+        -moz-animation-duration:1s;
+        animation-duration:1s;
+      }
+      
+      .fadeIn.first {
+        -webkit-animation-delay: 0.4s;
+        -moz-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+      }
+      
+      .fadeIn.second {
+        -webkit-animation-delay: 0.6s;
+        -moz-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+      }
+      
+      .fadeIn.third {
+        -webkit-animation-delay: 0.8s;
+        -moz-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+      }
+      
+      .fadeIn.fourth {
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        animation-delay: 1s;
+      }
+      
+      /* Simple CSS3 Fade-in Animation */
+      .underlineHover:after {
+        display: block;
+        left: 0;
+        bottom: -10px;
+        width: 0;
+        height: 2px;
+        background-color: #56baed;
+        content: "";
+        transition: width 0.2s;
+      }
+      
+      .underlineHover:hover {
+        color: #0d0d0d;
+      }
+      
+      .underlineHover:hover:after{
+        width: 100%;
+      }
+      
+      /* OTHERS */
+      
+      *:focus {
+          outline: none;
+      } 
+      
+      #icon {
+        width:60%;
+      }
+      .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+        color: rgb(131, 196, 10);
+       
+      }
+     /* search */
+     .container-2{
+      width: 300px;
+      vertical-align: middle;
+      white-space: nowrap;
+      position: relative;
+      left: 104px;
+    }
+    .container-2 input#search{
+      width: 150px;
+      height: 50px;
+      border: none;
+      font-size: 10pt;
+      float: left;
+      padding-left: 50px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      color: #fff;
+      background: linear-gradient(-45deg, #183850 0, #183850 25%, #192c46 50%, #22254c 75%, #22254c 100%);
+      -webkit-transition: width .55s ease;
+      -moz-transition: width .55s ease;
+      -ms-transition: width .55s ease;
+      -o-transition: width .55s ease;
+      transition: width .55s ease;
+      
+    }
+    
+    .container-2 input#search::-webkit-input-placeholder {
+       color: #167ece;
+    }
+     
+    .container-2 input#search:-moz-placeholder { /* Firefox 18- */
+       color: #65737e;  
+    }
+     
+    .container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+       color: #65737e;  
+    }
+     
+    .container-2 input#search:-ms-input-placeholder {  
+       color: #65737e;  
+    }
+    .container-2 .icon{
+      position: absolute;
+      
+      margin-left: 17px;
+      margin-top: 17px;
+      z-index: 1;
+      color: #4f5b66;
+    }
+    
+    .container-2 input#search:focus, .container-2 input#search:active{
+      outline:none;
+      width: 890px;
+      background: linear-gradient(-45deg, #183850 0, #183850 25%, #192c46 50%, #22254c 75%, #22254c 100%);
+      animation: Search 10s infinite linear;
+    }
+    .container-2:hover input#search{
+    width: 890px;
+    background: linear-gradient(-45deg, #183850 0, #183850 25%, #192c46 50%, #22254c 75%, #22254c 100%);
+    animation: Search 10s infinite linear;
+    }
+    @keyframes Search {
+      from {
+        filter: hue-rotate(0deg);
+      }
+      to {
+       filter: hue-rotate(-360deg);
+      }
+    }
+    .container-2:hover .icon{
+      color: #93a2ad;
+    }
+    /* View search */
+    #value_search{
+     position: absolute;
+      width: auto;
+      z-index: 999;
+      left: 5%;
+      top: 48px;
+      /* height: 70px; */
+      height: 220px;
+      overflow: auto;
+    }
+ 
+    #value_search  #div_search{
+      position: relative;
+      width: 890px;
+      background-color: #f7f7f7 ;   
+      /* display: block; */
+      height: 110px;
+      list-style: none;
+      
+    }
+ 
+    #value_search  #div_search img{
+      position: relative;
+      width: 10%;
+      z-index: 100;float: left;
+      margin: 1%;
+      border: 5px solid  linear-gradient(-45deg, #d6f331 0, #d6f331 25%, #d6f331 50%, #d6f331 75%, #d6f331 100%);;
+    }
+    #value_search  #div_search li.li_search{
+        position: relative;
+        background: none;
+        margin: 1%;   
+    }
+    #value_search  #div_search:hover{
+      background-color: tan;
+      border-bottom: 1px solid rgb(163, 156, 49);
+    }
+    #value_search  #div_search:hover h6{
+      transition: 0.3s all ease;
+      color: yellow;
+    }
+    /* pagination */
+    #page-numbers-app {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#page-numbers-app > li {
+  color: rgb(62, 140, 204);
+  user-select: none;
+  cursor: pointer;
+  margin: 0 3px;
+  padding: 0 5px;
+  border: 1px solid rgb(62, 140, 204);
+  text-align: center;
+  border-radius: 2px;
+}
+
+#page-numbers-app > li:not(.active):hover {
+  background: rgb(62, 140, 204);
+  color: white;
+}
+
+#page-numbers-app > li.active {
+  border-color: grey;
+  color: white;
+  background: grey;
+  cursor: default;
+}
+.span_logo{
+  position: relative;
+  right: 5%;
+  margin: 0 auto;
+}
+.span_logo img{
+  width: 50px;
+  position: relative;
+}
+
+/* .table tbody tr:nth-child(2n + 1) {
+  background: #d2d2d280;
+} */
+
+
+
+
